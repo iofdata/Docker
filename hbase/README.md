@@ -25,10 +25,10 @@ hbase-rs2: starting regionserver, logging to /usr/local/hbase/bin/../logs/hbase-
 hbase-rs1: starting regionserver, logging to /usr/local/hbase/bin/../logs/hbase-root-regionserver-hbase-rs1.out
 ```
 
-#### 2.2 hbase-ms1容器上启动master
+#### 2.2 hbase-ms2容器上启动master
 
 ```
-sdocker exec -it hbase-ms1 /usr/local/hbase/bin/hbase-daemon.sh start master
+sdocker exec -it hbase-ms2 /usr/local/hbase/bin/hbase-daemon.sh start master
 ```
 
 检查regionserver日志
